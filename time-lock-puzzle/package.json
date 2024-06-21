@@ -1,0 +1,16 @@
+{
+  "name": "time-lock-puzzle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tsc -b && node dist/index.js",
+    "build": "npx tsc -b",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.7",
+    "crypto-puzzle": "^5.0.2"
+  }
+}
